@@ -1,0 +1,36 @@
+.flex{
+	display:flex;
+	justify-content:space-around;;
+}
+body{
+	background-color:#1c2833 !important;
+}
+li{
+	color:#fff;
+}
+h1{
+	color:#fff;
+	text-align:center;
+}
+a{
+	color:#fff;
+}
+.mobile-header{
+	display: !important;
+}
+@media (max-width:600px){
+	.header{
+		display:;
+	}
+	.mobile-header{
+		display:block !important;
+	}
+}
+.swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 800px ;
+      object-fit: cover;
+	  text-align:center;
+	  padding: 0 100px;
+    }
